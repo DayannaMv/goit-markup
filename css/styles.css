@@ -1,10 +1,13 @@
+/* ---- ---- ---- VARIABLE ---- ---- ----*/
 :root {
   --color-primario:rgb(33, 150, 243);
 }
+/* ---- ---- ---- LISTAS SIN PUNTOS ---- ---- ----*/
 ul {
   list-style-type: none;
 }
-/** ---- ---- ---- HEADER ---- ---- ----*/
+/* ---- ---- ---- HEADER ---- ---- ----*/
+
 
 a.link-header {
   color: var(--color-primario);
@@ -121,7 +124,7 @@ a.link-header {
 .number:active {
   color: var(--color-primario);
 }
-/** ---- ---- ---- MAIN ---- ---- ----*/
+/* ---- ---- ---- MAIN ---- ---- ----*/
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -268,8 +271,6 @@ body {
   height: 46.24px;
   left: 619.43px;
   top: 991px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -307,8 +308,8 @@ body {
   left: 669px;
   top: 1604px;
   font-weight: 700;
-  font-size: 1.1;
-  line-height: 42px;
+  font-size: 36px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -438,7 +439,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/** ---- ---- ---- FOOTER ---- ---- ----*/
+/* ---- ---- ---- FOOTER ---- ---- ----*/
 
 .link-footer {
   color: var(--color-primario);

@@ -1,5 +1,7 @@
+/* ---- ---- ---- MAIN ---- ---- ----*/
 .btn-one:hover {
   background: var(--color-primario);
+  color:white
 }
 .btn-one:active {
   background: var(--color-primario);
@@ -7,6 +9,7 @@
 
 .btn-two:hover {
   background: var(--color-primario);
+  color: white;
 }
 .btn-two:active {
   background: var(--color-primario);
@@ -14,6 +17,7 @@
 
 .btn-three:hover {
   background: var(--color-primario);
+  color: white;
 }
 .btn-three:active {
   background: var(--color-primario);
@@ -21,6 +25,7 @@
 
 .btn-four:hover {
   background: var(--color-primario);
+  color: white;
 }
 .btn-four:active {
   background: var(--color-primario);
@@ -28,6 +33,7 @@
 
 .btn-five:hover {
   background: var(--color-primario);
+  color: white;
 }
 .btn-five:active {
   background: var(--color-primario);
@@ -293,15 +299,42 @@
   letter-spacing: 0.03em;
 }
 
+/* ---- ---- ---- FOOTER ---- ---- ---- */
+
+.footer-link {
+  color: var(--color-primario);
+  text-decoration: none;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
+
+.address-two {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1733px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .paragraph {
   position: absolute;
   width: 135px;
   height: 16px;
   left: 516px;
   top: 1703px;
-
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
